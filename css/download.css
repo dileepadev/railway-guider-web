@@ -64,3 +64,35 @@
 .step .step-element:last-child .step-number::before {
   bottom: 1rem;
 }
+
+/* Moved inline styles from download.html */
+.download-title {
+  color: #0455F7;
+  margin-top: 20px;
+}
+
+.img-padding-large {
+  padding: 80px;
+}
+
+.footer-logo-row {
+  margin-left: 20px;
+}
+
+.footer-logo {
+  width: 150px;
+}
+
+.hr-accent {
+  width: 120px;
+  height: 2px;
+  background-color: #0455F7;
+}
+
+.play-container {
+  margin-left: 130px;
+}
+
+.play-btn {
+  margin-top: 40px;
+}

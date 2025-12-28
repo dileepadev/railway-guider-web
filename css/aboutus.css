@@ -108,3 +108,27 @@
     top: 1.25rem;
   }
 }
+
+/* Moved inline styles from aboutus.html */
+.aboutus-title {
+  color: #0455F7;
+  margin-top: 20px;
+}
+
+.w-200 {
+  width: 180px;
+}
+
+.footer-logo-row {
+  margin-left: 20px;
+}
+
+.footer-logo {
+  width: 150px;
+}
+
+.hr-accent {
+  width: 120px;
+  height: 2px;
+  background-color: #0455F7;
+}

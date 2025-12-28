@@ -23,7 +23,7 @@
     <section id="nav-bar">
             <nav class="navbar navbar-expand-lg navbar-light static-top">
                 <div class="container-fluid p-0">
-                    <a class="navbar-brand" href="#"><img src="logo/logo.png"/>
+                    <a class="navbar-brand" href="#"><img src="logo/logo.png" alt="Logo">
                         <label for="">
                             <h2>Railway Guider</h2>
                         </label></a>
@@ -56,7 +56,7 @@
 
     <!--  ================================================ BODY ================================================  -->
     <section>
-        <div class="text-center" style="color: #0455F7; margin-top: 20px;"><h3><b>Download</b></h3></div>
+        <div class="text-center download-title"><h3><b>Download</b></h3></div>
         <!-- -------------------------------- Download Div 1 (Why is it so great?) -------------------------------- -->
         <div class="container my-5 p-5 z-depth-1">
             <div class="dark-grey-text">
@@ -175,10 +175,10 @@
                 </p>
                 <div class="row align-items-center">
                     <div class="col-lg-6 mb-4">
-                        <div class="view z-depth-1-half rounded">
+                            <div class="view z-depth-1-half rounded">
                             <img class="img-fluid" src="./images/download.png" alt="Video title">
-                            <div class="" style="margin-left:130px">
-                                <a type="button" id="play" style="margin-top:40px" class="btn-floating btn-danger btn-lg text-white" data-toggle="modal" data-target="#modal1"> 
+                            <div class="play-container">
+                                <a type="button" id="play" class="btn-floating btn-danger btn-lg text-white play-btn" data-toggle="modal" data-target="#modal1"> 
                                     &nbsp; Watch Video Guide
                                 </a>
                             </div>
@@ -228,7 +228,7 @@
             <div class="row">
                 <div class="col-lg-5 mb-4">
                     <div class="view overlay mb-4">
-                        <img class="img-fluid mx-auto" src="./images/d2.png" style="padding:80px" alt="Sample image">
+                        <img class="img-fluid mx-auto img-padding-large" src="./images/d2.png" alt="Sample image">
                         <a><div class="mask rgba-white-slight"></div></a>
                     </div>
                 </div>
@@ -240,7 +240,7 @@
                         website. In further we are going to launch this app in IOS and windows system also. 
                         This is none of charge, it’s a free app.
                     </p>
-                    <a href="https://github.com/dileepabandara/railway_guider/releases/download/v1.0-alpha/RailwayGuider.Alpha.apk" class="btn btn-outline-dark waves-effect btn-md" download>
+                    <a href="/downloads/RailwayGuider.Alpha.apk" class="btn btn-outline-dark waves-effect btn-md" download>
                         <i class="fa fa-android fa-lg pr-1" aria-hidden="true"></i></i> Download
                     </a>
                 </div>        
@@ -254,16 +254,15 @@
             <div class="container text-center text-md-left">
                 <div class="row text-center text-md-left mt-3 pb-3">
                     <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                        <div class="row text-center text-md-left mt-3 pb-3" style="margin-left: 20px;">
-                            <img src="logo/logo.png" style="width: 150px;" />
+                        <div class="row text-center text-md-left mt-3 pb-3 footer-logo-row">
+                            <img src="logo/logo.png" class="footer-logo" alt="Logo">
                         </div>
                         <p>Railway Guider help you to book your own train tickets and set free notifications and service.</p>
                     </div>    
                     <hr class="w-100 clearfix d-md-none" />
                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-5">
                         <h6 class="text-uppercase mb-4 font-weight-bold">Links</h6>
-                        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto"
-                            style="width: 120px; height: 2px; background-color: #0455F7;" />
+                        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto hr-accent" />
                         <p><a href="./index.html">Home</a></p>
                         <p><a href="./schedules.html">Schedules</a></p>
                         <p><a href="./services.html">Services</a></p>
@@ -272,8 +271,7 @@
                     <hr class="w-100 clearfix d-md-none" />
                     <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-5">
                         <h6 class="text-uppercase mb-4 font-weight-bold">Services</h6>
-                        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto"
-                            style="width: 120px; height: 2px; background-color: #0455F7;" />
+                        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto hr-accent" />
                         <p><a href="./services.html">Book your train</a></p>
                         <p><a href="">Find location</a></p>
                         <p><a href="./download.html">Mobile app</a></p>
@@ -281,8 +279,7 @@
                     <hr class="w-100 clearfix d-md-none" />
                     <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-5">
                         <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-                        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto"
-                            style="width: 120px; height: 2px; background-color: #0455F7;" />
+                        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto hr-accent" />
                         <p>Kurunegala, Sri lanka</p>
                         <p>+94 7* *** ****</p>
                         <p>railwayguider@gmail.com</p>

@@ -96,3 +96,49 @@
 .button {
     margin-bottom: 35px;
 }
+
+/* Moved inline styles from index.html */
+.page-top-margin {
+    margin-top: 40px;
+}
+
+.mt-20 { margin-top: 20px; }
+.mt-30 { margin-top: 30px; }
+.mt-50 { margin-top: 50px; }
+.mt-60 { margin-top: 60px; }
+
+.avatar-large { height: 180px; }
+
+.map-container-section {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+.map-container-section iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border: 0;
+}
+
+.md-form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.icon-inline { vertical-align: middle; margin-right: 6px; }
+
+.footer-logo-row { margin-left: 20px; }
+.footer-logo { width: 150px; }
+.hr-accent { width: 120px; height: 2px; background-color: #0455F7; }
+
+/* Page title style used across pages */
+.page-section-title {
+    color: #0455F7;
+    margin-top: 20px;
+}
+
+.img-padding-medium { padding: 25px; }
